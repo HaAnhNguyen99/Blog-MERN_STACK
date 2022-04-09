@@ -1,0 +1,86 @@
+.register {
+	height: calc(100vh - 50px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url('https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+}
+
+.registerTitle {
+	font-size: 70px;
+	font-weight: bold;
+	color: rgb(222, 128, 60);
+}
+
+.registerForm {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.registerForm > label {
+	margin: 10px 0;
+}
+
+.registerInput {
+	padding: 15px;
+	width: 400px;
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	transition: width 0.4s ease-in-out;
+}
+.registerInput[type='text']:focus {
+	background-color: rgb(173, 148, 130);
+	width: 600px;
+}
+
+.registerInput[type='password']:focus {
+	transition: width 0.4s ease-in-out;
+	width: 600px;
+	background-color: rgb(173, 148, 130);
+}
+
+.registerButton {
+	margin-top: 20px;
+	margin-left: 120px;
+	cursor: pointer;
+	background-color: rgb(155, 192, 192);
+	position: relative;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	/* transition-duration: 0.4s; */
+	width: 200px;
+	/* animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite; */
+}
+.registerButton:hover {
+	background-color: rgb(199, 238, 238);
+}
+.registerLoginButton {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	width: 120px;
+	background-color: lightcoral;
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+}
+
+.registerLoginButton:hover {
+	background-color: #4caf50; /* Green */
+	color: blue;
+}
