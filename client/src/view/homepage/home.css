@@ -1,3 +1,18 @@
 .home {
 	display: flex;
 }
+
+.pagination{
+	color: blue;
+}
+
+.pageClassName{
+	align-items: center;
+}
+
+.page{
+	align-items: center;
+}
+.paginate{
+	align-items: center;
+}

@@ -1,3 +1,4 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 import ReactDOM, { render } from 'react-dom'
 import './index.css'
@@ -11,10 +12,10 @@ axios.defaults.baseURL = 'http://localhost:3000/'
 const rootElement = document.getElementById('root')
 
 ReactDOM.render(
-	<React.StrictMode>
-		<ContextProvider>
-			<App />
-		</ContextProvider>
-	</React.StrictMode>,
+	// <React.StrictMode>
+	<ContextProvider>
+		<App />
+	</ContextProvider>,
+	// </React.StrictMode>,
 	rootElement
 )
