@@ -1,7 +1,6 @@
 const express = require('express')
-const morgan = require('morgan')
+// const morgan = require('morgan')
 const path = require('path')
-const handlebars = require('express-handlebars')
 const router = require('./routes')
 const cors = require('cors')
 const multer = require('multer')
