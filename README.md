@@ -1,9 +1,35 @@
-
 <h1 align="center">Hi 👋, I'm Ha Anh </h1>
 <h3 align="center">A passionate frontend developer from VietNam</h3>
 <h3 align="center">And this is My Blog website 🧡</h3>
+This is a full-stack blogging platform built using the MERN Stack (MongoDB, Express, React, and Node.js). The application provides a user-friendly interface for creating, managing, and sharing blog posts
 
-<h2 align="left">🤝 How to run?</h2>
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+
+## Introduction
+
+The Face Recognition Attendance System is designed to automate the process of recording attendance. It utilizes computer vision techniques to detect and recognize faces from a live video feed or a set of images, logging attendance details with timestamps in a CSV file.
+
+## Features
+
+- **User Registration and Login: Users can create a new account and log into the system.
+- **Create, Edit, and Delete Posts: Logged-in users can create new posts, edit, or delete their posts.
+- **View List and Details of Posts: All users can view the list of posts and click on each post to view its details.
+- **Comment Management: Users can add, edit, or delete comments on each post.
+- **Search and Filter System: Users can search for posts by keywords or filter posts based on certain criteria.
+
+## Technologies Used
+
+- **Programming Languages:** Javascript
+- **Libraries:** React, Node.js, Express.js
+- **Database:** MongoDB
+
+
+
+<h2 align="left" id="installation">🤝 How to run?</h2>
 
 <h3 align="left">Install package on server 🌱 </h3>
 <p align = "left">Server: <code>npm install morgan node-sass nodemon bcrypt body-parser cors dotenv express express-handlebars jsonwebtoken mongoose multer</code></p>
